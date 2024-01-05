@@ -68,7 +68,7 @@
   }
 
   code {
-    background: #2d2d2d;
+    background-color: #2d2d2d;
     color: #ccc;
     padding: 5px;
     width: 100%;
@@ -87,14 +87,14 @@
   }
 
   pre,
-  // pre&,
+  /* // pre&, */
   >ul li pre,
   >ol li pre {
     @apply flex p-0 text-sm leading-loose mb-8;
   }
 
   pre code,
-  // pre code&,
+  /* // pre code&, */
   >ul li pre code,
   >ol li pre code {
     @apply p-2;
